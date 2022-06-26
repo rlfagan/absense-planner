@@ -26,6 +26,15 @@
           "description": "Your team membership is not active."
         }
       },
+      {
+        "model": "river.state",
+        "pk": 2,
+        "fields": {
+          "slug": "invited",
+          "label": "Invited",
+          "description": "Your team membership is waiting for a response."
+        }
+      },
 
       {
         "model": "river.workflow",
