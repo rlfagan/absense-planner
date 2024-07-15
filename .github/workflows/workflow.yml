@@ -1,9 +1,9 @@
-name: FOSSA CI|CD
 jobs:
   fossa-scan:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: fossas/fossa-action@main # Use a specific version if locking is preferred
-        with:
-        api-key: 24d4692b10eb422ce53478ddb6665857
+    - uses: actions/checkout@v3
+    - uses: fossas/fossa-action@main
+      with:
+        api-key: '{{90148104c328b9917d10cafd824b512c}}'
+name: FOSSA CI|CD
