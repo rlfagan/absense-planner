@@ -1,4 +1,4 @@
-name: 'Link Checker: All English'
+name: 'Link Checkerh'
 jobs:
   fossa-scan:
     runs-on: ubuntu-latest
