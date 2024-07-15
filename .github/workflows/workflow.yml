@@ -1,3 +1,4 @@
+name: FOSSA CI|CD
 jobs:
   fossa-scan:
     runs-on: ubuntu-latest
