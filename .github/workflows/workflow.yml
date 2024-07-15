@@ -1,9 +1,9 @@
+name: 'Link Checker: All English'
 jobs:
   fossa-scan:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: fossas/fossa-action@main
-      with:
-        api-key: '{{secrets.fossaApiKey}}'
-#
+      - uses: actions/checkout@v3
+      - uses: fossas/fossa-action@main # Use a specific version if locking is preferred
+        with:
+          api-key: ${{secrets.fossaApiKey}}
